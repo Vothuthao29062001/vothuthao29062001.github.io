@@ -1,0 +1,444 @@
+# vothuthao29062001.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       *{
+
+            margin: auto;
+         
+        }
+        html *
+{
+   font-family: Comic Sans MS !important;
+}
+
+     #wrapper{
+                margin: auto;
+                background-color: aqua;
+            }
+        #top-bar{
+            width: 800px;
+            height: 50px;
+                background-color: #2d6a4f
+        }
+        .profile
+        {
+            height: auto;
+            width: 800px;
+        }
+        #left{
+                width: 400px;
+                float: left;
+                height: 400px;
+                background-color: #d8f3dc;
+            }
+    
+            .profile-image{
+                margin: auto;
+                margin-top: 30px;
+                width: 250px;
+            height: 250px;
+
+            }
+             .profile-image img {
+            width: 250px;
+            height: 250px;
+            border-radius: 10%;
+            background-image: url(https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/287189030_2967102760248175_5295705947320300395_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=vYGRpbYhhEIAX8XZZQ8&_nc_ht=scontent.fsgn5-14.fna&oh=00_AfCB69Q4KCZrTf5eNW11iMlfXqTwSLK0DD8rFTuyGSue5w&oe=63B22E14);
+            background-position: center;
+            background-size: contain;
+            border-radius: 10%;
+        }
+ .profile-image :hover
+            {
+            scale: 130%;
+            border-radius: 0%;
+            transition: ease-in-out 0.5s;
+            transform: translateY(-20px) translateX(10px);
+            background-image: url(https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/287189030_2967102760248175_5295705947320300395_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=vYGRpbYhhEIAX8XZZQ8&_nc_ht=scontent.fsgn5-14.fna&oh=00_AfCB69Q4KCZrTf5eNW11iMlfXqTwSLK0DD8rFTuyGSue5w&oe=63B22E14);
+            background-position: center;
+            background-size: contain;
+            }
+
+        .profile-text
+        {
+            height: auto;
+            margin: 30px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        #left:hover{
+            background-color: #081c15;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+            color: #ffffff;
+
+        }  
+            #right{
+                width: 400px;
+                float: left; /*float:right*/
+                height: 400px;
+                background-color: 2d6a4f;
+                color: #2d6a4f;
+                padding-bottom:30px;
+            }
+            .right-text
+            {
+                height: 300px;
+                width:300px;
+                margin: auto;
+                font-size: 17px;
+                text-align:justify;
+                padding-top: 100px;
+            }
+            .right-text ul:hover
+            {
+                background-color: #b7e4c7;
+                transition: ease-in 0.3s;
+            }
+            .right-text  ul{
+                background-color:  #ebdada;
+                border-radius: 5px;
+                width: fit-content;
+                margin: 5px;
+                list-style:square;
+            
+            }
+            .right-text  .lien-he
+            {
+                background-color: #b3ac75;
+                color: DDA15E;
+            }
+            #main {
+                background-color: #2d6a4f;
+                height: auto;
+                width: 800px;
+                clear: both;
+            }
+            #top-bar-2{
+            width: auto;
+            height: auto;
+            margin-left: 30px;
+            background-color: #b7e4c7;
+            border-radius: 10px 0;
+            color:#1b4332;
+            font-size: 30px;
+            padding: 10px;
+        }
+        #top-bar-2:hover
+        {
+            background-color: #ffffff;
+            color: #283618;
+        }
+        .education
+        {
+            background-color: rgb(255, 255, 255);
+            width: 800px;
+            height: 300px;
+         
+        }
+        .education-2
+        {
+            padding-top: 30px;
+            background-color: #ffffff;
+            padding-bottom: 30px;
+        }
+        .edu-text
+        {  margin-top: 30px;      
+            width: 550px;
+            height: auto;
+            float: left;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            font-size: 17px;
+            
+        }
+        .edu-img
+        {       
+            margin-top: 30px;      
+            width: 200px;
+            height: 200px;
+            float: left;
+            background-color: rgb(178, 2, 2);
+        }
+    .skill-1 {
+        width: 200px;
+        height: 300px;
+        float: left;
+        background-color: #ffffff;
+    }
+
+    .skill-1 .sk1-img
+    {
+      
+        background-image: url(https://cdn-icons-png.flaticon.com/128/74/74953.png);
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        border-radius: 50px;
+        background-position: center;
+            background-size: contain;
+    }
+    .skill-1  .sk1-img:hover{
+
+background-color: #364aff;
+width: 100px;
+height: 100px;
+background-size: cover;
+scale: 120%;
+background-image: url(https://f7-zpcloud.zdn.vn/239940034965721922/ea6f6aead53f0d61542e.jpg);
+
+}
+ .sk1-text
+    {
+        font-size: 15px;
+        text-align: center;
+        width: 150px;
+        height: 100px;
+        margin-top: 30px;
+    }
+    .skill-2
+    {
+        width: 200px;
+        height: 300px;
+        float: left;
+        background-color: #ffffff;
+    }
+    .skill-2 .sk2-img
+    {
+        background-image: url(https://cdn-icons-png.flaticon.com/128/5968/5968522.png);
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        border-radius: 50px;
+            background-size: cover;
+    }
+    .skill-2  .sk2-img:hover{
+
+background-color: #364aff;
+width: 100px;
+height: 100px;
+background-size: cover;
+scale: 120%;
+background-image: url(https://f5-zpcloud.zdn.vn/2192681198529827788/a09c23199ccc44921ddd.jpg);
+
+}
+
+    .skill-3
+    {
+        width: 200px;
+        height: 300px;
+        float: left;
+        background-color: #ffffff;
+    }
+    .skill-3 .sk3-img
+    {
+        background-image: url(https://cdn-icons-png.flaticon.com/128/5968/5968474.png);
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        border-radius: 50px;
+            background-size: contain;
+    }
+    .skill-3  .sk3-img:hover{
+
+background-color: #364aff;
+width: 100px;
+height: 100px;
+background-size: cover;
+scale: 120%;
+background-image: url(https://f7-zpcloud.zdn.vn/1215902688119643739/cd2f4caaf37f2b21726e.jpg);
+
+}
+    .skill-4
+    {
+        width: 200px;
+        height: 300px;
+        float: left;
+        background-color: #ffffff;
+    }
+    .skill-4 .sk4-img
+    {
+        background-image: url(https://cdn-icons-png.flaticon.com/128/5968/5968575.png);
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        border-radius: 50px;
+            background-size: contain;
+    }
+    .skill-4  .sk4-img:hover{
+
+background-color: #364aff;
+width: 100px;
+height: 100px;
+background-size: cover;
+scale: 120%;
+transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+background-image: url(https://f5-zpcloud.zdn.vn/2192681198529827788/a09c23199ccc44921ddd.jpg);
+
+}
+    .red-color {
+        color:red;
+    }
+    .edu-text2
+    {
+        font-size: 17px;
+    }
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+</head>
+
+
+<body>
+    <body>
+        <div id="wrapperr">
+            <div id="top-bar"></div>
+            <div class="profile">
+            <div id="left">
+                <div class="profile-image"> <img alt="">
+                </div> 
+                <div class="profile-text">
+                    VO THU THAO
+                </div>
+            </div>
+            <div id="right">
+                <div class="right-text">
+                 
+            <li>Tên: Võ Thu Thảo </li>      
+            <li>Ngày sinh: 29/06/2001</li> 
+            <li>Quê quán: Hàm Tân - Bình Thuận</li>
+            <li>Địa chỉ: Ký túc xá khu B đại học quốc gia Linh Trung - Thủ Đức</li>
+<br>
+<span class="lien-he">   
+    <ul>  Mail: thaovt19411@st.uel.edu.vn
+    </ul>
+    <ul>Phone: 0922598749  </ul>
+    <ul> Facebook: <a href="https://www.facebook.com/vothuthao0102/">vothuthao0102 </a>
+ </ul>
+</span> 
+                </div>
+            </div>
+            <br>
+        </div>
+        </div>
+        <div id="main">
+            <div id="top-bar-2">
+                Education
+            </div>
+            
+            <div class="education">
+                <div class="edu-text" style="text-align: justify;" >
+                   <ul style="margin-left: 10px;">Hiện đang là sinh viên năm 4 tại trường Đại học Kinh tế - Luật (Đại học quốc gia TP Hồ Chí Minh) <br> <br>
+                    <li>Chuyên ngành:  thương mại điện tử</li>
+                    <li>Khoa: Hệ thống thông tin</li>
+                    <li>Niên khoá:  2019-2023</li>
+                </ul>
+                </div>
+
+
+                <div class="edu-img"> 
+                    <a href="https://www.uel.edu.vn/">
+                        <img width="100%" src="https://th.bing.com/th/id/R.a9e7e96ad442af10eb9b6c27418c6d08?rik=7UACiRjsYvU8rQ&pid=ImgRaw&r=0" alt="">
+
+                    </a>
+                </div>
+            </div> 
+            <div id="top-bar-2">
+               Graphic design skills
+            </div>
+            <div class="education">
+                <div class="skill-1">
+                    <div class="sk1-img"></div>
+                    <div class="sk1-text">Nắm được các phím tắt và các thao tác chỉnh sửa ảnh căn bản.</div>
+                </div>
+                <div class="skill-2">
+                    <div class="sk2-img"></div>
+                    <div class="sk1-text">Sử dụng ở mức độ cơ bản như tạo các vector, logo đơn giản.</div>
+
+                </div>
+                <div class="skill-3">
+                <div class="sk3-img"></div>
+                <div class="sk1-text">Tạo được shapes motion video cơ bản, hiệu ứng chuyển động cho text đơn giản, thêm phụ đề, âm thanh...</div>
+
+
+                </div>
+                <div class="skill-4">
+                <div class="sk4-img"></div>
+                <div class="sk1-text">Sử dụng các thao tác như cắt ghép video, tạo chuyển cảnh, phụ đề...</div>
+                </div>
+            </div>          
+          
+            <div id="top-bar-2">
+                Knowlege
+            </div>
+            <div class="education-2">
+                <div class="edu-text2" style="margin-left: 30px; text-align: justify; width: 700px;">
+
+                    <UL>    * Về Programming: <BR></BR></UL>
+             
+                       <li>Có kiến thức nền tảng về lập trình android và website.</li> 
+                       <li>Biết sử dụng công cụ Figma để thiết kế giao diện Web và Mobile.</li>
+                    </p>
+                    <li>Project nhóm: FRONT-END DI ĐỘNG (App đặt lịch khám bệnh) <br> Link Github: <a href=" https://github.com/Nhom07hepat/Android_hepat">https://github.com/Nhom07hepat/Android_hepat</a>  </li>
+
+                    <li>Project nhóm: FRONt-END WEB (WEB bán hàng) <br>
+                            Link Github: <a href="https://github.com/phanhonganh208/Nhom15_Veggie">https://github.com/phanhonganh208/Nhom15_Veggie</a> </p>
+                            <p></p>
+                            <br>
+                            <UL>    * Về Business Analyst: <BR></BR></UL>
+                   
+                           Được học Phân tích hệ thống thông tin quản lý. Tiếp cận với Usecase, BPMN, DFD và UML Sequence Diagram. Biết sử dụng công cụ quản lý cơ sở dữ liệu SQL.
+                
+<BR></BR>
+                     <Ul>*  Về Data Analyst: <BR></BR></Ul> 
+           
+                    Sử dụng ngôn ngữ lập trình Python với các thư viện như Panda, Numpy, Matplotlib trong trực quan hoá dữ liệu và phân tích dự báo.
+                </div>
+            </div> 
+            <div id="top-bar-2">
+                Experience
+            </div>
+            <div class="education">
+                <div class="edu-text">
+                    <ul style="margin-left: 30px;">
+                  <li>Làm tối ưu SEO CONTENT & GOOGLE ADS tại Bảo hộ lao động Thinksafe (thinksafe.vn)</li>  
+                  <li>Thời gian thực tập: 08/2022 - 12/2022</li>
+                  <li>Kinh nghiệm đúc kết được trong quá trình làm việc: <br> Rèn luyện cho bản thân tính tự giác và kỷ luật hơn, biết cách lên kế hoạch công việc, sắp sếp thời gian hợp lý để hoàn thành đúng tiến độ. Rèn luyện được kỹ năng làm việc nhóm và kỹ năng giao tiếp. Nâng cao khả năng tự học.</li> 
+                  <li>Tiếp cận được các công cụ như Google Keywords Planner, Google Console</li>
+                </ul>
+                </div>
+                <div class="edu-img">
+                    <img width="100%" src="https://zpsocial-f47-org.zadn.vn/24b665082b4ec4109d5f.jpg" alt="">
+                </div>
+            </div> 
+
+
+            <div id="top-bar-2">
+                Personal Abilities
+             </div>
+             <div class="education">
+                 <div class="skill-1">
+                     <div class="sk1-text"><li>Thích ứng nhanh với môi trường mới</li> </div>
+                 </div>
+                 <div class="skill-2">
+                     <div class="sk1-text"><li> Có khả năng tự học, tự giải quyết vấn đề</li></div>
+ 
+                 </div>
+                 <div class="skill-3">
+                 <div class="sk1-text"><li> Tập trung cao độ khi làm việc, sẵn sàng chịu trách nhiệm với những sai lầm</li></div>
+ 
+ 
+                 </div>
+                 <div class="skill-4">
+                 <div class="sk1-text"><li> Học nhanh, ghi nhớ khá tốt</li></div>
+                 </div>
+             </div>         
+        </div>
+    </body>
+</html>
